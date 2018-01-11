@@ -12,7 +12,7 @@
        default-lazy-init="true" default-autowire="byName">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.sfl.nms.persistence.*"/>
+    <context:component-scan base-package="com.sflpro.notifier.persistence.*"/>
 
     <!--Load datasource context-->
     <import resource="applicationContext-persistence-jpa-datasource.xml"/>
@@ -50,7 +50,7 @@
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
 
-    <bean id="persistenceUtilityService" class="com.sfl.nms.persistence.utility.impl.PersistenceUtilityServiceImpl"/>
+    <bean id="persistenceUtilityService" class="com.sflpro.notifier.persistence.utility.impl.PersistenceUtilityServiceImpl"/>
 
 
     <tx:annotation-driven transaction-manager="transactionManager"/>

@@ -48,7 +48,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.sfl.nms.persistence.dbmigration.MsNotificationFlywayStandaloneRunner</mainClass>
+                            <mainClass>com.sflpro.notifier.persistence.dbmigration.MsNotificationFlywayStandaloneRunner</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

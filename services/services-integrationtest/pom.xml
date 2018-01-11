@@ -25,6 +25,13 @@
             <artifactId>services-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>${h2.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <description>Services sub module represents suite of integration tests for services layer of Galaxy project.

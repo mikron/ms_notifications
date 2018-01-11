@@ -6,7 +6,7 @@
 
        default-lazy-init="true" default-autowire="byName">
 
-    <import resource="applicationContext-persistence-jpa.xml"/>
+    <import resource="applicationContext-persistence-jpa-integrationtest.xml"/>
 
     <!-- Override database connectivity  -->
     <bean id="appProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">

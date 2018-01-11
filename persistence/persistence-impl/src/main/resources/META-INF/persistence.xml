@@ -7,24 +7,24 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!-- User -->
-        <class>com.sfl.nms.services.user.model.User</class>
+        <class>com.sflpro.notifier.services.user.model.User</class>
 
-        <class>com.sfl.nms.services.device.model.UserDevice</class>
+        <class>com.sflpro.notifier.services.device.model.UserDevice</class>
 
         <!-- Notification -->
-        <class>com.sfl.nms.services.notification.model.Notification</class>
-        <class>com.sfl.nms.services.notification.model.UserNotification</class>
-        <class>com.sfl.nms.services.notification.model.email.EmailNotification</class>
-        <class>com.sfl.nms.services.notification.model.email.ThirdPartyEmailNotification</class>
-        <class>com.sfl.nms.services.notification.model.email.ThirdPartyEmailNotificationProperty</class>
-        <class>com.sfl.nms.services.notification.model.sms.SmsNotification</class>
-        <class>com.sfl.nms.services.notification.model.push.PushNotification</class>
-        <class>com.sfl.nms.services.notification.model.push.PushNotificationProperty</class>
-        <class>com.sfl.nms.services.notification.model.push.PushNotificationSubscription</class>
-        <class>com.sfl.nms.services.notification.model.push.PushNotificationSubscriptionRequest</class>
-        <class>com.sfl.nms.services.notification.model.push.PushNotificationRecipient</class>
-        <class>com.sfl.nms.services.notification.model.push.sns.PushNotificationSnsRecipient</class>
-        <class>com.sfl.nms.services.notification.model.push.PushNotificationRecipientDevice</class>
+        <class>com.sflpro.notifier.services.notification.model.Notification</class>
+        <class>com.sflpro.notifier.services.notification.model.UserNotification</class>
+        <class>com.sflpro.notifier.services.notification.model.email.EmailNotification</class>
+        <class>com.sflpro.notifier.services.notification.model.email.ThirdPartyEmailNotification</class>
+        <class>com.sflpro.notifier.services.notification.model.email.ThirdPartyEmailNotificationProperty</class>
+        <class>com.sflpro.notifier.services.notification.model.sms.SmsNotification</class>
+        <class>com.sflpro.notifier.services.notification.model.push.PushNotification</class>
+        <class>com.sflpro.notifier.services.notification.model.push.PushNotificationProperty</class>
+        <class>com.sflpro.notifier.services.notification.model.push.PushNotificationSubscription</class>
+        <class>com.sflpro.notifier.services.notification.model.push.PushNotificationSubscriptionRequest</class>
+        <class>com.sflpro.notifier.services.notification.model.push.PushNotificationRecipient</class>
+        <class>com.sflpro.notifier.services.notification.model.push.sns.PushNotificationSnsRecipient</class>
+        <class>com.sflpro.notifier.services.notification.model.push.PushNotificationRecipientDevice</class>
 
     </persistence-unit>
 </persistence>

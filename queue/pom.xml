@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.sfl.ms.notification</groupId>
-        <artifactId>notification</artifactId>
+        <artifactId>sfl-notifier</artifactId>
         <version>1.0</version>
     </parent>
     <groupId>com.sfl.ms.notification.queue</groupId>
